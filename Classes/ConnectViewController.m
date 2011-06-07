@@ -53,7 +53,7 @@
 
 -(IBAction) tappedTwitter
 {
-	NSURL *url = [NSURL URLWithString:@"http://m.twitter.com/sugarcreek"];
+	NSURL *url = [NSURL URLWithString:@"http://m.twitter.com/mountaincreekbc"];
 	[[UIApplication sharedApplication] openURL:url];
 	
 	//browserView.urlString = @"http://m.twitter.com/sugarcreek";
@@ -69,7 +69,7 @@
 
 -(IBAction) tappedEmail
 {
-	NSURL *url = [NSURL URLWithString:@"mailto://info@sugarcreek.net"];
+	NSURL *url = [NSURL URLWithString:@"mailto://info@mountaincreekbc.org"];
 	[[UIApplication sharedApplication] openURL:url];
 }
 
